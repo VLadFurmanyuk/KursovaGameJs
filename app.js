@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //game over
   function gameOver(square) {
-    result.innerHTML = 'BOOM! Game Over!'
+    result.innerHTML = 'Нажаль ви програли, перезавантажте сторінки для подальшої гри'
     isGameOver = true
 
     //show ALL the bombs
